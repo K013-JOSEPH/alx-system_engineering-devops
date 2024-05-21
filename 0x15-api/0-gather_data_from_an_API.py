@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """For a given employee ID, returns information about
 their TODO list progress"""
@@ -29,4 +28,3 @@ if __name__ == "__main__":
 
     print('\n'.join(["\t " + task.get('title') for task in todos.json()
           if task.get('userId') == int(userId) and task.get('completed')]))
-
